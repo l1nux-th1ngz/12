@@ -1,5 +1,6 @@
 #!/bin/bash
 # Get these 
+git clone https://aur.archlinux.org/breath-gtk-theme.git && cd breathe-gtk-theme && makepkg -si
 git clone https://aur.archlinux.org/macchina.git && cd macchina && makepkg -si
 git clone https://aur.archlinux.org/geticons.git && cd geticons && makepkg -si
 
