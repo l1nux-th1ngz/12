@@ -1,0 +1,7 @@
+#!/bin/bash
+# Get these 
+git clone https://aur.archlinux.org/macchina.git && cd macchina && makepkg -si
+git clone https://aur.archlinux.org/geticons.git && cd geticons && makepkg -si
+
+# Install packages
+yay -S --noconfirm eww-wayland nerd-fonts-inter fuzzel trayer mpvpaper socat nerd-fonts-mononoki nerd-fonts-jetbrains-mono swww rofi-lbonn-wayland-git foot
